@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <style>
+        #cart-container{
+        margin-top:5rem;
+        }
+        #cart-title{
+        font-size:3.5rem;
+        text-align:center;
+        font-family:sans-serif;
+        color:rgb(146,78,78);
+        }
+        #empty-cart{
+            display: none;
+    margin-top:4rem;
+    text-align:center;
+    font-size:larger;
+}
+#cart-with-items{
+    margin-top:1rem;
+       }
+       .cart-column{
+   display:grid;
+   grid-template-columns:repeat(5,1fr);
+}
+#total{
+    position:relative;
+    margin-top:3rem;
+    right:1em;
+    float:right;
+    background:rgb(172,191,246);
+font-family:monospace;
+font-size:larger;
+padding:1rem;
+color:rgb(149,51,34);
+letter-spacing:0.1rem;
+margin-bottom:1.5rem;
+}
+</style>
+</head>
+
+<body>
+    <!-- cart list section -->
+    <div id="cart-container">
+        <p id="cart-title">Your<strong>Cart</
+        strong></p>
+        <div id="empty-cart">
+              <h1>Your Cart is Empty ...</h1>
+                         </div>
+    <div id="cart-with-items">
+        <div class="cart-column">
+             <h3>Service</h3>
+             <h3>Service Name</h3>
+             <h3>Total</h3>
+             <h3>Quantity</h3>
+             <h3>Remove</h3>
+         </div>
+         <div id="item-body">
+        </div>
+        <div id="total">
+             <h3 id="total-items">Quantity</h3>
+             <h2 id="total-amount">Amount</h2>
+             <h3 id="you-saved">you saved</h3>
+        </div>
+    
+</body>
+</html>
