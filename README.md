@@ -1,2 +1,1 @@
-# eventmanagement
-this is python project
+# eventmanage
